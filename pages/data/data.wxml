@@ -1,0 +1,35 @@
+<view class="page__container">
+  <view class="subheader">NATIONAL TOTALS</view>
+  <!-- confirmed cases -->
+  <view class="container">
+    <view class="name">CONFIRMED</view>
+    <view class="data">{{results.confirmedCount}}</view>
+  </view>
+
+  <!-- cured cases -->
+  <view class="container">
+    <view class="name">CURED</view>
+    <view class="data">{{results.curedCount}}</view>
+  </view>
+
+  <!-- deceased cases -->
+  <view class="container">
+    <view class="name">DECEASED</view>
+    <view class="data">{{results.deadCount}}</view>
+  </view>
+
+  <!-- rate of change -->
+  <view class="container">
+    <view class="name">RATE OF CHANGE</view>
+    <view class="data">{{results.deadIncr}}</view>
+  </view>
+
+  <!-- updated on -->
+  <view class="container">
+    <view class="name">UPDATED ON</view>
+    <view class="data">{{ results.updateTime }}</view>
+  </view>
+
+  <button bindtap="fetchData" class="btn">FETCH DATA</button>
+  
+</view>
