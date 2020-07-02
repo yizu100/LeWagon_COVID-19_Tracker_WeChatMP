@@ -1,6 +1,10 @@
 # LeWagon_COVID-19_Tracker_WeChatMP
 [Le Wagon COVID-19 Data Tracker WeChat Mini-Program Tutorial](https://www.notion.so/lewagon/Le-Wagon-Build-a-Real-Time-Data-Tracker-in-WeChat-1498c5548da04d96bcb8ccad090d6765)
 
+<p align="center">
+<img src="./Tracker_1.jpg"  width="320" height="518"> <img src="./Tracker_2.jpg"  width="320" height="518">
+</p>
+
 ## Installation
 
 1. Clone repository
